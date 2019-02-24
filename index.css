@@ -1,0 +1,32 @@
+.on {
+    color: green
+}
+
+.off {
+    color: red
+}
+
+.name {
+    color: blue
+}
+
+body {
+    min-width: 300px;
+    color: blue;
+    background-color: azure
+}
+
+button {
+    padding: 0px;
+    background-color: lawngreen
+}
+
+li {
+    margin: 5px;
+    border: black;
+    border-style: double;
+    background-color: blanchedalmond;
+    border-width: 2px;
+    display: block;
+    padding: 3px;
+}

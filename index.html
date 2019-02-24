@@ -1,0 +1,33 @@
+<html>
+<link rel="stylesheet" href="index.css">
+
+<body>
+    <h1>Bookmarklet Boss</h1>
+    <button id="addNew">Add new</button>
+    <div id="listHolder">
+        <h2>Files:</h2>
+        <ul id="list"> </ul>
+    </div>
+    <div id="editting" style="display:none">
+        <h2>Edit Existing</h2>
+        <h3>Name:  <input type="text" id="newEdittedName"></h3>
+        <h3>Url:  <input type="text" id="newEdittedUrl"></h3>
+        <div id="edittingButtons">
+            <button id="cancelEdittingButton">Cancel</button>
+            <button id="deleteFileButton">Delete</button>
+            <button id="saveEdittedFileButton">Save</button>
+        </div>
+    </div>
+    <div id="createNew" style="display:none">
+        <h2>Create New</h2>
+        <h3>Name:  <input type="text" id="newName"></h3>
+        <h3>Url:  <input type="text" id="newUrl"></h3>
+        <div>
+            <button id="cancelSaveButton">Cancel</button>
+            <button id="saveNewButton">Save</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
